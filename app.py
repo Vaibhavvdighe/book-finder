@@ -205,8 +205,18 @@ div.stFormSubmitButton > button:hover {
 
 button[kind="primary"] {
     background: linear-gradient(180deg, #9A4E19, #7E3E12) !important;
-    color: white !important;
+    color: #FFFFFF !important;
     border-color: #7E3E12 !important;
+}
+
+button[kind="primary"] * {
+    color: #FFFFFF !important;
+}
+
+button[kind="primary"] p,
+button[kind="primary"] span,
+button[kind="primary"] div {
+    color: #FFFFFF !important;
 }
 
 button[kind="secondary"] {
